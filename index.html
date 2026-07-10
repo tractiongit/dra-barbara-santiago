@@ -50,6 +50,9 @@
         details > summary::-webkit-details-marker {
             display: none;
         }
+        .hero-texture {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+        }
     </style>
 </head>
 <body class="font-sans text-brand-900 antialiased bg-sand-50 selection:bg-brand-200 selection:text-brand-900">
@@ -62,9 +65,9 @@
                     <span class="font-display font-light uppercase tracking-[0.15em] text-sm text-brand-900">Dra. Bárbara Santiago</span>
                 </div>
                 <div class="hidden md:flex space-x-10">
-                    <a href="#metodos" class="font-display font-light uppercase tracking-widest text-xs text-brand-700 hover:text-brand-900 transition">Métodos</a>
-                    <a href="#sobre" class="font-display font-light uppercase tracking-widest text-xs text-brand-700 hover:text-brand-900 transition">A Médica</a>
-                    <a href="#faq" class="font-display font-light uppercase tracking-widest text-xs text-brand-700 hover:text-brand-900 transition">Dúvidas</a>
+                    <a href="#metodos" class="font-display font-light uppercase tracking-widest text-xs text-brand-800 hover:text-brand-900 transition">Métodos</a>
+                    <a href="#sobre" class="font-display font-light uppercase tracking-widest text-xs text-brand-800 hover:text-brand-900 transition">A Médica</a>
+                    <a href="#faq" class="font-display font-light uppercase tracking-widest text-xs text-brand-800 hover:text-brand-900 transition">Dúvidas</a>
                 </div>
                 <div class="flex items-center">
                     <a href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20DIU/Implanon." target="_blank" class="bg-brand-800 hover:bg-brand-900 text-sand-50 px-6 py-3 rounded-none font-display font-light uppercase tracking-widest text-xs transition duration-300">
@@ -76,11 +79,11 @@
     </header>
 
     <!-- Dobra 1: Hero Section -->
-    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 bg-sand-100 overflow-hidden">
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 bg-sand-100 hero-texture overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="grid lg:grid-cols-2 gap-16 lg:gap-8 items-center">
                 <div class="max-w-2xl order-2 lg:order-1">
-                    <div class="inline-flex items-center gap-2 px-4 py-2 border border-brand-200 text-brand-800 font-display text-xs uppercase tracking-widest mb-8">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 border border-brand-200 text-brand-900 font-display text-xs uppercase tracking-widest mb-8">
                         <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span>
                         Campinas e São Paulo
                     </div>
@@ -89,7 +92,7 @@
                         Liberdade contraceptiva <br>com o cuidado médico <br>que você merece.
                     </h1>
                     
-                    <p class="text-lg text-brand-800/80 font-light mb-10 leading-relaxed max-w-lg">
+                    <p class="text-lg text-brand-800 font-light mb-10 leading-relaxed max-w-lg">
                         Seu corpo é único e a escolha do seu método contraceptivo também deve ser.<br>Ofereço um acompanhamento médico individualizado e cuidadoso para que você tome a melhor decisão para a sua rotina, sem pressa e com total segurança.
                     </p>
                     
@@ -111,7 +114,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-4xl mx-auto mb-20">
                 <h2 class="text-2xl md:text-3xl font-display font-light uppercase tracking-[0.1em] text-brand-900 mb-6 leading-relaxed">Um acompanhamento cuidadoso para escolhas íntimas</h2>
-                <p class="text-brand-800/70 font-light text-lg">Decidir sobre o seu contraceptivo pode parecer complexo, e é natural ter dúvidas.</p>
+                <p class="text-brand-800 font-light text-lg">Decidir sobre o seu contraceptivo pode parecer complexo, e é natural ter dúvidas.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -122,7 +125,7 @@
                     </div>
                     <div>
                         <h3 class="font-display font-light uppercase tracking-wider text-brand-900 mb-3">A rotina diária</h3>
-                        <p class="text-brand-800/70 font-light leading-relaxed">Muitas mulheres sentem que lembrar da pílula todos os dias traz uma preocupação constante. É natural desejar um método mais prático e seguro que acompanhe o seu ritmo de vida.</p>
+                        <p class="text-brand-800 font-light leading-relaxed">Muitas mulheres sentem que lembrar da pílula todos os dias traz uma preocupação constante. É natural desejar um método mais prático e seguro que acompanhe o seu ritmo de vida.</p>
                     </div>
                 </div>
 
@@ -133,7 +136,7 @@
                     </div>
                     <div>
                         <h3 class="font-display font-light uppercase tracking-wider text-brand-900 mb-3">Escutando o seu corpo</h3>
-                        <p class="text-brand-800/70 font-light leading-relaxed">Se você sente que precisa de uma pausa de adaptações hormonais intensas, saiba que existem excelentes opções de baixíssima ou nenhuma dosagem no mercado.</p>
+                        <p class="text-brand-800 font-light leading-relaxed">Se você sente que precisa de uma pausa de adaptações hormonais intensas, saiba que existem excelentes opções de baixíssima ou nenhuma dosagem no mercado.</p>
                     </div>
                 </div>
 
@@ -144,7 +147,7 @@
                     </div>
                     <div>
                         <h3 class="font-display font-light uppercase tracking-wider text-brand-900 mb-3">O receio é compreensível</h3>
-                        <p class="text-brand-800/70 font-light leading-relaxed">É normal paralisar na decisão e ter medo de realizar procedimentos. Por isso, a minha principal prioridade é garantir protocolos de conforto e analgesia, respeitando sempre o seu limite.</p>
+                        <p class="text-brand-800 font-light leading-relaxed">É normal paralisar na decisão e ter medo de realizar procedimentos. Por isso, a minha principal prioridade é garantir protocolos de conforto e analgesia, respeitando sempre o seu limite.</p>
                     </div>
                 </div>
 
@@ -155,7 +158,7 @@
                     </div>
                     <div>
                         <h3 class="font-display font-light uppercase tracking-wider text-brand-900 mb-3">O excesso de informações</h3>
-                        <p class="text-brand-800/70 font-light leading-relaxed">Entre tantos relatos na internet, é fácil se sentir confusa e não é fácil decidir sozinha. Meu papel é traduzir a ciência para a sua realidade e te dar clareza.</p>
+                        <p class="text-brand-800 font-light leading-relaxed">Entre tantos relatos na internet, é fácil se sentir confusa e não é fácil decidir sozinha. Meu papel é traduzir a ciência para a sua realidade e te dar clareza.</p>
                     </div>
                 </div>
             </div>
@@ -171,18 +174,18 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-4xl mx-auto mb-20">
                 <h2 class="text-2xl md:text-3xl font-display font-light uppercase tracking-[0.1em] text-brand-900 mb-6 leading-relaxed">Muito além de um procedimento:<br>Uma avaliação completa.</h2>
-                <p class="text-brand-800/70 font-light text-lg">Eu não realizo apenas a inserção de dispositivos. Meu primeiro passo é sempre uma avaliação minuciosa para entender o seu histórico e, juntas, definirmos o caminho mais seguro para você.</p>
+                <p class="text-brand-800 font-light text-lg">Eu não realizo apenas a inserção de dispositivos. Meu primeiro passo é sempre uma avaliação minuciosa para entender o seu histórico e, juntas, definirmos o caminho mais seguro para você.</p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 <!-- DIU -->
                 <div class="bg-sand-50 p-10 border border-sand-200">
                     <h3 class="font-display font-light uppercase tracking-widest text-xl text-brand-900 mb-6 border-b border-brand-200 pb-4">DIU (Intrauterino)</h3>
-                    <p class="text-brand-800/80 font-light mb-8 leading-relaxed">Dispositivo intrauterino que oferece proteção segura e contínua. Vou avaliar com você a melhor opção para a sua rotina:</p>
+                    <p class="text-brand-800 font-light mb-8 leading-relaxed">Dispositivo intrauterino que oferece proteção segura e contínua. Vou avaliar com você a melhor opção para a sua rotina:</p>
                     <ul class="space-y-5">
                         <li class="flex items-start gap-4">
                             <span class="w-1.5 h-1.5 rounded-full bg-brand-500 mt-2 flex-shrink-0"></span>
-                            <span class="text-brand-900 font-light"><strong class="font-medium">Mirena / Kyleena:</strong> Baixa dosagem hormonal, ideal para controle de fluxo e cólicas (duração de 5 anos).</span>
+                            <span class="text-brand-900 font-light"><strong class="font-medium">Mirena / Kyleena:</strong> Baixa dosagem hormonal, ideal para controle de fluxo e cólicas (duração de 8 anos para Mirena e 5 anos para Kyleena).</span>
                         </li>
                         <li class="flex items-start gap-4">
                             <span class="w-1.5 h-1.5 rounded-full bg-brand-500 mt-2 flex-shrink-0"></span>
@@ -194,7 +197,7 @@
                 <!-- Implanon -->
                 <div class="bg-sand-50 p-10 border border-sand-200">
                     <h3 class="font-display font-light uppercase tracking-widest text-xl text-brand-900 mb-6 border-b border-brand-200 pb-4">Implanon (No Braço)</h3>
-                    <p class="text-brand-800/80 font-light mb-8 leading-relaxed">A praticidade invisível. Um pequeno implante flexível inserido sob a pele do braço que inibe a ovulação.</p>
+                    <p class="text-brand-800 font-light mb-8 leading-relaxed">A praticidade invisível. Um pequeno implante flexível inserido sob a pele do braço que inibe a ovulação.</p>
                     <ul class="space-y-5">
                         <li class="flex items-start gap-4">
                             <span class="w-1.5 h-1.5 rounded-full bg-brand-500 mt-2 flex-shrink-0"></span>
@@ -226,9 +229,9 @@
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="order-2 lg:order-1">
                     <h2 class="text-2xl md:text-3xl font-display font-light uppercase tracking-[0.1em] text-brand-900 mb-4">Quem cuidará de você?</h2>
-                    <h3 class="font-display font-light tracking-widest text-brand-700 uppercase mb-8">Dra. Bárbara Santiago <span class="text-brand-500 text-xs ml-2">CRM 000000 / RQE 00000</span></h3>
+                    <h3 class="font-display font-light tracking-widest text-brand-800 uppercase mb-8">Dra. Bárbara Santiago <span class="text-brand-500 text-xs ml-2">CRM 230244 / RQE 105823 (Ginecologia) / RQE 105823-1 (Reprodução)</span></h3>
                     
-                    <div class="space-y-6 text-brand-800/80 font-light text-lg leading-relaxed mb-10">
+                    <div class="space-y-6 text-brand-800 font-light text-lg leading-relaxed mb-10">
                         <p class="italic">
                             Minha missão é transformar a ida ao ginecologista, que para muitas mulheres é sinônimo de pressa e desconforto, em um momento de escuta verdadeira e acolhimento.
                         </p>
@@ -252,37 +255,24 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-2xl md:text-3xl font-display font-light uppercase tracking-[0.1em] text-brand-900 mb-4">Dúvidas Frequentes</h2>
-                <p class="text-brand-800/70 font-light text-lg">Tudo o que você precisa saber antes de dar o próximo passo.</p>
+                <p class="text-brand-800 font-light text-lg">Tudo o que você precisa saber antes de dar o próximo passo.</p>
             </div>
 
             <div class="space-y-4">
                 <!-- Pergunta 1 -->
                 <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
-                        Como funciona o agendamento?
+                        Como funciona o agendamento? Preciso comprar o DIU na farmácia antes?
                         <span class="transition group-open:rotate-180 text-brand-500">
                             <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                         </span>
                     </summary>
-                    <div class="px-6 pb-6 text-brand-800/80 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
-                        <p>Realizo uma primeira consulta de avaliação, onde conversaremos sobre o seu histórico e farei os exames clínicos necessários. <strong>A grande vantagem:</strong> caso você se sinta segura e eu realize a inserção do método no mesmo dia, o valor desta consulta inicial é isento, e você investe apenas no valor do procedimento.</p>
+                    <div class="px-6 pb-6 text-brand-800 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
+                        <p>Para a sua total comodidade, nós cuidamos de toda a logística. O valor do procedimento já inclui o dispositivo (Mirena, Kyleena, Cobre, Prata ou Implanon), que fica disponível na clínica. A grande vantagem é que, caso você realize a inserção do método no mesmo dia da avaliação, o valor da consulta inicial é isento, e você investe apenas no valor do procedimento.</p>
                     </div>
                 </details>
 
                 <!-- Pergunta 2 -->
-                <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
-                    <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
-                        Vocês atendem convênio?
-                        <span class="transition group-open:rotate-180 text-brand-500">
-                            <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
-                        </span>
-                    </summary>
-                    <div class="px-6 pb-6 text-brand-800/80 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
-                        <p>Priorizo um tempo de consulta maior, calmo e humanizado, o que os planos de saúde tradicionais não permitem. Por isso, meus atendimentos são particulares. No entanto, emito todos os relatórios e notas fiscais para que você possa solicitar o <strong>reembolso</strong> junto ao seu convênio médico.</p>
-                    </div>
-                </details>
-
-                <!-- Pergunta 3 -->
                 <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
                     <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
                         O procedimento dói muito?
@@ -290,8 +280,60 @@
                             <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                         </span>
                     </summary>
-                    <div class="px-6 pb-6 text-brand-800/80 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
-                        <p>Esse é o maior medo das pacientes, e eu entendo perfeitamente! Utilizo protocolos atualizados de analgesia e um preparo cuidadoso no meu consultório para que a sua experiência seja a mais rápida e confortável possível. Explico cada etapa e respeito sempre o seu limite de conforto.</p>
+                    <div class="px-6 pb-6 text-brand-800 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
+                        <p>Esse é o maior medo das pacientes, e eu entendo perfeitamente! Utilizo protocolos atualizados de analgesia e um preparo cuidadoso no consultório para que a experiência seja a mais rápida e confortável possível. Explico cada etapa e respeito sempre o seu limite de conforto.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 3 -->
+                <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
+                        Preciso estar menstruada para colocar o DIU?
+                        <span class="transition group-open:rotate-180 text-brand-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-brand-800 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
+                        <p>Não! Esse é um mito comum. O DIU pode ser inserido em qualquer fase do seu ciclo menstrual. Na consulta, avaliaremos juntas o melhor momento para o seu corpo.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 4 -->
+                <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
+                        Como é a recuperação? Posso trabalhar ou treinar no mesmo dia?
+                        <span class="transition group-open:rotate-180 text-brand-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-brand-800 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
+                        <p>A recuperação costuma ser tranquila. A maioria das pacientes retorna às atividades de trabalho, estudo e até aos exercícios no mesmo dia, sem restrições. Estarei à disposição no pós-procedimento para qualquer orientação.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 5 -->
+                <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
+                        Nunca tive filhos. Posso usar o DIU?
+                        <span class="transition group-open:rotate-180 text-brand-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-brand-800 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
+                        <p>Com certeza! É mito dizer que mulheres que nunca engravidaram não podem usar DIU. Hoje temos modelos menores (como o Kyleena e alguns de Cobre/Prata) perfeitos para úteros menores. Na consulta, avaliaremos a sua anatomia para escolher o tamanho ideal com segurança.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 6 -->
+                <details class="group bg-sand-50 border border-sand-200 transition-all duration-300">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-display font-light tracking-wide text-brand-900 text-lg uppercase">
+                        Vou engordar ou ter espinhas? E se eu estiver na menopausa?
+                        <span class="transition group-open:rotate-180 text-brand-500">
+                            <svg fill="none" height="24" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-brand-800 font-light leading-relaxed border-t border-sand-200 pt-4 mt-2">
+                        <p>Os métodos como Mirena, Kyleena e Implanon possuem dosagens hormonais muito mais baixas do que a pílula. Além disso, muitas pacientes desconhecem que o Mirena não é apenas um excelente contraceptivo, mas também um grande aliado como terapia hormonal para mulheres na menopausa. Analisaremos o seu histórico para escolher a melhor opção.</p>
                     </div>
                 </details>
 
